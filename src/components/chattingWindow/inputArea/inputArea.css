@@ -1,0 +1,104 @@
+#input-area-form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.1rem;
+
+    .input-area {
+        flex: 7;
+        display: flex;
+        align-items: center;
+
+        padding: 0.7rem;
+        border-radius: 100px;
+        background-color: #0a0a0a71;
+        box-shadow: 0 0 25px rgba(4, 0, 46, 0.401);
+
+        span {
+            width: 2.2rem;
+            aspect-ratio: 1;
+            font-size: 1.4rem;
+            border-radius: 50%;
+
+            display: grid;
+            place-items: center;
+        }
+
+        span:hover {
+            background-color: #ffffff19;
+        }
+
+        span.select-emoji {
+            position: relative;
+        }
+
+        span.select-emoji.active {
+            color: #9f84ff;
+        }
+
+        .emoji-picker {
+            position: absolute;
+            bottom: 170%;
+            left: 0;
+
+            background-color: #0a0a0a71;
+        }
+
+        span.select-image {
+            transform: rotate(-45deg);
+        }
+
+        label {
+            width: 100%;
+
+            input {
+                padding: 0.7rem;
+                width: 100%;
+                font-family: inherit;
+                font-size: inherit;
+                font-weight: 500;
+                border: none;
+                background-color: transparent;
+                color: #fff;
+            }
+
+            input::placeholder {
+                color: #ffffff84;
+            }
+
+            input:focus {
+                outline: 0;
+            }
+        }
+    }
+
+    .send {
+        flex: 0.8;
+        background-color: #ff2268;
+        border-radius: 100px;
+        border: 1px solid #ff2268;
+        height: 100%;
+        box-shadow: 0 0 25px rgba(4, 0, 46, 0.401);
+
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #ffffff;
+
+        transition: all 0.2s ease;
+    }
+
+    .send:disabled {
+        color: #ffffffaa;
+        border: 1px solid #ffffffaa;
+        background-color: transparent;
+    }
+
+    .send:hover {
+        transform: translateY(-5%);
+    }
+
+    .send:active {
+        transform: scale(0.95);
+    }
+}

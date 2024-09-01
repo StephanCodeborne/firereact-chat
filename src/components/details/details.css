@@ -1,0 +1,5 @@
+.details {
+    flex: 1;
+    border-left: 1px solid #ffffff1f;
+    box-shadow: 5px 0 25px rgba(4, 0, 46, 0.401);
+}

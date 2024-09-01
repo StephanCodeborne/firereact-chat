@@ -1,0 +1,24 @@
+.chat {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem;
+    border-radius: 12px;
+    cursor: pointer;
+
+    .avatar {
+        width: 3rem;
+        object-fit: cover;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 1px solid #9f84ff;
+    }
+
+    .last-message {
+        color: #ffffffb5;
+    }
+}
+
+.chat:hover {
+    background-color: rgba(0, 0, 0, 0.223);
+}

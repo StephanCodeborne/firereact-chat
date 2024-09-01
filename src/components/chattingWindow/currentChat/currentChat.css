@@ -1,0 +1,37 @@
+.current-chat {
+    width: 100%;
+    padding: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff1f;
+    box-shadow: 5px 0 25px rgba(4, 0, 46, 0.401);
+
+    .chat-info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .avatar {
+            width: 3.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid #9f84ff;
+        }
+
+        .captions {
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-size: 1.3rem;
+            }
+
+            .about {
+                font-size: 0.9rem;
+                opacity: 0.4;
+            }
+        }
+    }
+}

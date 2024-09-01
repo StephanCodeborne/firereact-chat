@@ -1,0 +1,6 @@
+.chatting-window {
+    flex: 2;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
