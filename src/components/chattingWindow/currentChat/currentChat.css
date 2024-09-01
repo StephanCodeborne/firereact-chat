@@ -6,8 +6,9 @@
     justify-content: space-between;
     border-bottom: 1px solid #ffffff1f;
     box-shadow: 5px 0 25px rgba(4, 0, 46, 0.401);
+}
 
-    .current-chat .chat-info {
+.current-chat .chat-info {
         display: flex;
         align-items: center;
         gap: 1rem;
@@ -34,4 +35,3 @@
             }
         }
     }
-}
